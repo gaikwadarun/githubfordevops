@@ -1,6 +1,6 @@
-This is for stash command in git
-new change
+git stash 
+git rebase
+git diff
+gitignore
+conflict
 
-ne change
-an
-Update 1
