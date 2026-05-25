@@ -1,1 +1,17 @@
-updated 2 file
+# EC2 instance set up in VPC
+Requirements
+Within AWS Account:
+create VPC:
+ -create subnets public and private(Isolated group of IP addresses within VPC)
+ -assign cidr
+ -create route tables for public and private (to route internal and externall traffice)
+ -createinternet gateway-(created in public subnet that anyone can access ec2 instance)
+ -create NAT gateway - to get only to private instance for internet 
+  attach internet gateway VPC
+ -in route table need to do subnet association for private and public subnets
+ -in route table edit route where in public we have to add internet gateway and in private NAT gateway
+ -after all vpc configuration we will setup EC2 instance in pubilc and private subnets and also give proper access
+ via security groups
+ - after connecting  public EC2 it should acccessible for all and private should as its in private 
+ subnet.
+ -this is where we can use secure isolated envt for servers or instances.
