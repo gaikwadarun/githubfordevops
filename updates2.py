@@ -49,3 +49,8 @@ Disaster recovery
 Backup before deployment
 Database recovery
 Server migration
+# IAM (Identity and Access Management )
+-IAM User - Individual 
+-IAM role - temporary permission and 
+-IAM Groups - A collection of user where we can assign roles and permission 
+-IAM Policy - Rule of permission or we can create custom policies for perticular AWS resources
