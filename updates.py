@@ -18,3 +18,18 @@ suppose we have Account A and account B
  -provide ARN which is account B's created role 
  -then connection will be establish 
 
+#AWS S3 
+-simple storage service
+-storge data in the form of objects
+-we can store any type of data .csv .txt.mp4.mp3 
+-widely used AWS service 
+-different type of S3 bucket :
+  -standerd -mostly used and recommended 
+  -standerd IF
+  -glacier IF
+
+static website deployment on S3
+-bucket Policy
+-bucket permission
+-kms-encryption
+
